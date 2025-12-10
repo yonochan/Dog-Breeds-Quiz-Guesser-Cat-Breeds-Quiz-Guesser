@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кинолог-Эксперт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-container">
+    
+    <!-- ЭКРАН 1: МЕНЮ -->
+    <div id="menu-screen" class="screen active">
+        <h1>Викторина: Породы</h1>
+        <p>Выберите режим игры:</p>
+        
+        <button class="menu-btn" onclick="startGame(1)">Уровень 1 (Новичок)</button>
+        <button class="menu-btn" onclick="startGame(2)">Уровень 2 (Любитель)</button>
+        <button class="menu-btn" onclick="startGame(3)">Уровень 3 (Профи)</button>
+        
+        <!-- КНОПКА НОВОГО УРОВНЯ -->
+        <button class="menu-btn" onclick="startGame(4)" style="background-color: #dc3545;">Уровень 4 (Эксперт)</button>
+        
+        <button class="menu-btn all-modes" onclick="startGame('all')">Все породы (Экстрим)</button>
+    </div>
+
+    <!-- ЭКРАН 2: ИГРА -->
+    <div id="game-screen" class="screen">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+            <span>Вопрос: <span id="q-current">1</span>/<span id="q-total">10</span></span>
+            <span>Очки: <span id="score">0</span></span>
+        </div>
+        
+        <div class="image-box">
+            <img id="dog-image" src="" alt="Собака">
+        </div>
+
+        <div class="options-grid" id="options-container">
+            <!-- Кнопки ответов генерируются через JS -->
+        </div>
+
+        <button class="next-btn" id="next-btn" onclick="nextQuestion()">Дальше</button>
+    </div>
+
+    <!-- ЭКРАН 3: РЕЗУЛЬТАТЫ -->
+    <div id="result-screen" class="screen">
+        <h2>Тест завершен!</h2>
+        <div class="result-score"><span id="final-score">0</span>%</div>
+        <div class="result-title" id="final-title">Звание</div>
+        <div class="result-desc">Правильных ответов: <span id="correct-count">0</span> из <span id="total-count">0</span></div>
+        <button class="menu-btn" onclick="showMenu()">В главное меню</button>
+    </div>
+
+</div>
+
+<!-- Сначала база данных (которую мы редактировали ранее), потом логика -->
+<script src="breeds.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
