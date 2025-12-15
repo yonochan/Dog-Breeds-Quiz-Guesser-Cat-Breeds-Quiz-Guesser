@@ -3304,6 +3304,368 @@ const breedsData = [
         similar: { 'евразиер': 50, 'чау': 50, 'бобтейл': 50, 'самоед': 50, 'пекинес': 50 }
     },
 
+    // === УРОВЕНЬ 10 (Редкие, Аборигенные и Энциклопедические) ===
+    
+    // --- ЕВРОПЕЙСКИЕ ЛЕГАВЫЕ И ГОНЧИЕ ---
+    {
+        id: 'ландсир',
+        name: 'ландсир',
+        level: 10,
+        images: ['https://s3.pet-yes.com/BreedPhotos/609da14ebafc5.jpeg'],
+        similar: { 'ньюф': 50, 'сенбернар': 50, 'леонбергер': 50, 'пиреней': 50 }
+    },
+    {
+        id: 'ирлкрасбел',
+        name: 'ирландский красно-белый сеттер',
+        level: 10,
+        images: ['https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgum5FCzIvyKbQ-OBFNH6JZ89COe2be_VYLTjhCwL0BMvKOJIPPbw5QFdEyAXe2JYyXK97ekG_MwsV-y4ekx6qbsQXVqxdv0me3NvTlha68iMXak_mXCqxpNbDVnjTpUnZc0k__unhBoUcB/s1600/13_brief_32.jpg'],
+        similar: { 'ирсеттер': 50, 'англсеттер': 50, 'бретон': 50, 'спрингер': 50 }
+    },
+    {
+        id: 'коллигш',
+        name: 'колли короткошерстный',
+        level: 10,
+        images: ['https://petstory.ru/resize/800x800x80/upload/images/articles/breeds/smooth-collie/2.jpg'],
+        similar: { 'коллидш': 50, 'бордер': 50, 'аусси': 50, 'дворняга': 50 }
+    },
+    {
+        id: 'штихельхаар',
+        name: 'штихельхаар',
+        level: 10,
+        images: ['https://kisapes.ru/wp-content/uploads/2024/01/german-roughhaired-pointer-07.jpg'],
+        similar: { 'дратхаар': 50, 'курцхаар': 50, 'гриффонкор': 50, 'пудельпойнтер': 50 }
+    },
+    {
+        id: 'гасконсентонж',
+        name: 'гасконско-сентонжская гончая',
+        level: 10,
+        images: ['https://egida.by/_pu/7/20733212.jpg'],
+        similar: { 'гасконская': 50, 'блюгасконь': 50, 'пуатевин': 50, 'русгончая': 50 }
+    },
+    {
+        id: 'малаягасконь',
+        name: 'малая голубая гасконская гончая',
+        level: 10,
+        images: ['https://hundforsakring.net/wp-content/uploads/2024/10/Petit-Bleu-De-Gascogne.jpg'],
+        similar: { 'гасконская': 50, 'бассет': 50, 'бигль': 50, 'эстонка': 50 }
+    },
+    {
+        id: 'бигльхарьер',
+        name: 'бигль-харьер',
+        level: 10,
+        images: ['https://lh3.googleusercontent.com/proxy/WWRjp4TWr8IMJ9Wd9T8fXD_CWqGPvt4GA0YKjdbKFMtcnTUr_dB93Uir5JQGl2QFNx9HPaefjyjrqc2bekCfSqG3Xe60oVZHCe8nd9PepSnOIn-m03xV0nFOQJM-bkvhGadg9JRxWCuyUlZAicyRK1JTgkLI3FVrp2OfZnDm8XvkYjZn0R548lV8'],
+        similar: { 'бигль': 50, 'харьер': 50, 'эстонка': 50, 'русспеггончая': 50 }
+    },
+    {
+        id: 'портбракк',
+        name: 'португальский бракк',
+        level: 10,
+        images: ['https://ohota-rybalka-kirov.ru/wp-content/uploads/2021/10/perdiguero-portugues-1.png'],
+        similar: { 'курцхаар': 50, 'поинтер': 50, 'выжла': 50, 'бургосская': 50 }
+    },
+    {
+        id: 'испгончая',
+        name: 'испанская гончая',
+        level: 10,
+        images: ['https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=675,fit=cover/animal/breed/dog/adult/679761db44994595496145.jpg'],
+        similar: { 'бладхаунд': 50, 'посавская': 50, 'копов': 50, 'баварская': 50 }
+    },
+    {
+        id: 'польскаягончая',
+        name: 'польская гончая',
+        level: 10,
+        images: ['https://thumbs.img-sprzedajemy.pl/1000x901c/ae/37/78/gonczy-polski-szczenieta-charzyno-sprzedam-541661937.jpg'],
+        similar: { 'копов': 50, 'трансильванская': 50, 'доберман': 50, 'эстонка': 50 }
+    },
+    {
+        id: 'сербтрехцв',
+        name: 'сербская трехцветная гончая',
+        level: 10,
+        images: ['https://kudrdzoni.com/wp-content/uploads/2020/01/srpski-trobojni-gonic-2.jpg'],
+        similar: { 'сербская': 50, 'эстонка': 50, 'бигль': 50, 'русспеггончая': 50 }
+    },
+    {
+        id: 'эллинская',
+        name: 'эллинская гончая',
+        level: 10,
+        images: ['https://upload.wikimedia.org/wikipedia/commons/6/6d/Hellinikos_Ichnilatis_%28Georging%29_cropped.jpg'],
+        similar: { 'сегуджо': 50, 'копов': 50, 'трансильванская': 50, 'доберман': 50 }
+    },
+    {
+        id: 'смоланд',
+        name: 'смоландская гончая',
+        level: 10,
+        images: ['https://i.pinimg.com/564x/01/17/9e/01179e3985409b8ebacc1e45bb5a79e7.jpg'],
+        similar: { 'ротвейлер': 50, 'копов': 50, 'эстонка': 50, 'австрийский': 50 }
+    },
+    {
+        id: 'бассетартез',
+        name: 'бассет-артезиен-норманд',
+        level: 10,
+        images: ['https://nplimages.infradoxxs.com/cache/pcache2/01305846.jpg'],
+        similar: { 'бассетхаунд': 50, 'бигль': 50, 'древер': 50, 'бассетгриффон': 50 }
+    },
+    {
+        id: 'голубойгриффон',
+        name: 'голубой гасконский гриффон',
+        level: 10,
+        images: ['https://kisapes.ru/wp-content/uploads/2023/09/griffon-bleu-de-gascogne-06.jpg'],
+        similar: { 'гриффонкор': 50, 'спиноне': 50, 'грандбассет': 50, 'оттерхаунд': 50 }
+    },
+    {
+        id: 'грандвандей',
+        name: 'большой вандейский гриффон',
+        level: 10,
+        images: ['https://cdn.shopify.com/s/files/1/0582/8349/1478/files/alamy_GDDP0Y.jpg?v=1750748120'],
+        similar: { 'грандбассет': 50, 'брике': 50, 'спиноне': 50, 'оттерхаунд': 50 }
+    },
+    {
+        id: 'грандангло',
+        name: 'большая англо-французская трехцветная гончая',
+        level: 10,
+        images: ['https://fordogtrainers.ru/images/breeds/poroda-sobak-bolshaya-anglo-frantsuzskaya-trekhtsvetnaya-gonchaya.jpg'],
+        similar: { 'русспеггончая': 50, 'фоксхаунд': 50, 'пуатевин': 50, 'францгончая': 50 }
+    },
+    {
+        id: 'францбелчер',
+        name: 'французская бело-черная гончая',
+        level: 10,
+        images: ['https://s3.pet-yes.com/thumbs/512/BreedPhotos/609d783734069.jpeg'],
+        similar: { 'грандангло': 50, 'пуатевин': 50, 'гасконская': 50, 'русспеггончая': 50 }
+    },
+    {
+        id: 'францбелоранж',
+        name: 'французская бело-оранжевая гончая',
+        level: 10,
+        images: ['https://worlddogfinder.com/imager/1300x740/upload/french_white_and_orange_hound.jpg'],
+        similar: { 'грандангло': 50, 'билли': 50, 'порселен': 50, 'фоксхаунд': 50 }
+    },
+    {
+        id: 'арьежбрак',
+        name: 'арьежский бракк',
+        level: 10,
+        images: ['https://мосохота.рф/24729-large_default/arezhskij-brakk-franciya.jpg'],
+        similar: { 'курцхаар': 50, 'поинтер': 50, 'бурбонне': 50, 'сенжермен': 50 }
+    },
+
+    // --- АЗИАТСКИЕ И АБОРИГЕННЫЕ ---
+    {
+        id: 'каталбурун',
+        name: 'каталбурун',
+        level: 10,
+        images: ['https://sobakovod.club/uploads/posts/2022-02/1644757222_5-sobakovod-club-p-sobaki-katalburun-poroda-9.jpg'],
+        similar: { 'поинтер': 50, 'курцхаар': 50, 'браккоитальано': 50, 'выжла': 50 }
+    },
+    {
+        id: 'сяси',
+        name: 'сяси',
+        level: 10,
+        images: ['https://mt.tr-dogs.com/Content/uploads/2022838739/2022090916421434f2e10cb8324d3c9ed0608dbbb0ead3.jpg'],
+        similar: { 'лайка': 50, 'сиба': 50, 'бшо': 50, 'терьер': 50 }
+    },
+    {
+        id: 'саншу',
+        name: 'саншу',
+        level: 10,
+        images: ['https://img.wanqol.com/2022/07/c35b4603-japanesedog01.jpg?auto=format'],
+        similar: { 'кишу': 50, 'акита': 50, 'сиба': 50, 'хоккайдо': 50 }
+    },
+    {
+        id: 'банхар',
+        name: 'банхар',
+        level: 10,
+        images: ['https://mongoltoli.mn/upload/pictures/1668793475.jpg'],
+        similar: { 'тибет': 50, 'хотошо': 50, 'кавказ': 50, 'алабай': 50 }
+    },
+    {
+        id: 'тобет',
+        name: 'тобет',
+        level: 10,
+        images: ['https://nomadmgz.kz/images/heritage/tobet/photo%20024.jpg'],
+        similar: { 'алабай': 50, 'кавказ': 50, 'кангал': 50, 'акбаш': 50 }
+    },
+    {
+        id: 'сагекоче',
+        name: 'саге коче',
+        level: 10,
+        images: ['https://tvaryny.com/sites/default/files/images/breed/223330/gallery-223330_3.jpg'],
+        similar: { 'алабай': 50, 'кангал': 50, 'акбаш': 50, 'гульдонг': 50 }
+    },
+    {
+        id: 'гульдонг',
+        name: 'гуль-донг',
+        level: 10,
+        images: ['https://santreyd.ru/upload/iblock/0a6/0a6477c126ea5b02e4803d6c0b990fef.jpg'],
+        similar: { 'аргентин': 50, 'амбуль': 50, 'питбуль': 50, 'алано': 50 }
+    },
+    {
+        id: 'гультерр',
+        name: 'гуль-терр',
+        level: 10,
+        images: ['https://lh5.googleusercontent.com/proxy/zU-1qNWF-OdeFE_qRHmjCitQPvZkDPpnTknoTVmhTa3pR8Cm9DWqTBWTWQ0uFkV61HMM2mxPsr2jwpFnezuR0naJ5iSibhHmU2Qjykr2JoTXnbksh4VExgr7'],
+        similar: { 'буль': 50, 'питбуль': 50, 'аргентин': 50, 'стафф': 50 }
+    },
+    {
+        id: 'донгкьё',
+        name: 'донгкьё',
+        level: 10,
+        images: ['https://breed-assets.wisdompanel.com/dog/donggyeongi/Donggyeongi1.jpg'],
+        similar: { 'джиндо': 50, 'сиба': 50, 'кишу': 50, 'бобтейл': 50 }
+    },
+    {
+        id: 'чеджу',
+        name: 'чеджу',
+        level: 10,
+        images: ['https://t4.ftcdn.net/jpg/02/96/23/09/360_F_296230963_NZFWvkvFArXSlx299sTl8gt1MkhS8eiM.jpg'],
+        similar: { 'джиндо': 50, 'сиба': 50, 'лайка': 50, 'ханаан': 50 }
+    },
+
+    // --- СОБАКИ РОССИИ (ДОП) ---
+    {
+        id: 'камчатка',
+        name: 'камчатская ездовая собака',
+        level: 10,
+        images: ['https://sobakovod.club/uploads/posts/2021-11/1636538433_1-sobakovod-club-p-sobaki-kamchatskaya-laika-1.jpg'],
+        similar: { 'хаски': 50, 'маламут': 50, 'лайка': 50, 'чукотская': 50 }
+    },
+    {
+        id: 'таймыр',
+        name: 'таймырская ездовая собака',
+        level: 10,
+        images: ['https://moya-planeta.ru/upload/images/xl/5e/c8/5ec86f0904a04632a781a8565886a66a8be3f950.jpg'],
+        similar: { 'ненецкая': 50, 'самоед': 50, 'лайка': 50, 'гренка': 50 }
+    },
+    {
+        id: 'эвенки',
+        name: 'эвенкийская лайка',
+        level: 10,
+        images: ['https://goarctic.ru/upload/iblock/4a3/4a3ad547cb5fe133acdad80c266697b5.jpg'],
+        similar: { 'всл': 50, 'зсл': 50, 'якут': 50, 'карелка': 50 }
+    },
+    {
+        id: 'южнорусборзая',
+        name: 'южнорусская степная борзая',
+        level: 10,
+        images: ['https://lh4.googleusercontent.com/proxy/PsHFBsPpmQIjcSXbbDOuqjVXyGt_90225LNgIqCqqitwTpqUXDh2Mkl0-Z2nqEhgzalcV09XnBw'],
+        similar: { 'тазы': 50, 'хортая': 50, 'салюки': 50, 'грейхаунд': 50 }
+    },
+    {
+        id: 'дагестан',
+        name: 'дагестанский волкодав',
+        level: 10,
+        images: ['https://poknok.art/uploads/posts/2022-12/1670418491_3-poknok-art-p-dagestanskii-volkodav-4.jpg'],
+        similar: { 'кавказ': 50, 'алабай': 50, 'гампр': 50, 'кангал': 50 }
+    },
+
+    // --- РЕДКИЕ ДРУГИХ РЕГИОНОВ ---
+    {
+        id: 'америндейская',
+        name: 'американская индейская собака',
+        level: 10,
+        images: ['https://www.petworks.com/articles/wp-content/uploads/2025/02/american-indian-dog.jpg'],
+        similar: { 'каролинская': 50, 'ханаан': 50, 'койот': 50, 'влчак': 50 }
+    },
+    {
+        id: 'новогвинейская',
+        name: 'новогвинейская поющая собака',
+        level: 10,
+        images: ['https://usatiki.ru/wp-content/uploads/2019/11/novogvinejskaya-poyushhaya-sobaka.jpg'],
+        similar: { 'динго': 50, 'сиба': 50, 'басенджи': 50, 'каролинская': 50 }
+    },
+    {
+        id: 'африканис',
+        name: 'африканис',
+        level: 10,
+        images: ['https://kisapes.ru/wp-content/uploads/2023/07/africanis-05.jpg'],
+        similar: { 'риджбек': 50, 'басенджи': 50, 'грейхаунд': 50, 'азавак': 50 }
+    },
+    {
+        id: 'армант',
+        name: 'армант',
+        level: 10,
+        images: ['https://egida.by/_pu/8/60933796.jpg'],
+        similar: { 'бриар': 50, 'бобтейл': 50, 'пули': 50, 'бергамаско': 50 }
+    },
+    {
+        id: 'кампейро',
+        name: 'бульдог кампейро',
+        level: 10,
+        images: ['https://zoogalaktika.ru/assets/images/pets/canis-familiaris/buldog-kampeyro.jpeg'],
+        similar: { 'амбуль': 50, 'англбульдог': 50, 'боксер': 50, 'серрано': 50 }
+    },
+    {
+        id: 'серрано',
+        name: 'серрано бульдог',
+        level: 10,
+        images: ['https://static.wixstatic.com/media/db516d_48a3a5866d76496f964ac31daa09d1ef~mv2.jpg/v1/fill/w_280,h_188,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Buldogue-Serrano.jpg'],
+        similar: { 'кампейро': 50, 'амбуль': 50, 'боксер': 50, 'алано': 50 }
+    },
+    {
+        id: 'катахулабуль',
+        name: 'бульдог катахулы',
+        level: 10,
+        images: ['https://upload.wikimedia.org/wikipedia/commons/2/20/Ole_Dan_Catahoula_Bulldog.jpg'],
+        similar: { 'катахула': 50, 'амбуль': 50, 'питбуль': 50, 'стафф': 50 }
+    },
+
+    // --- ПАСТУШЬИ, ТЕРЬЕРЫ И КОМПАНЬОНЫ ---
+    {
+        id: 'чешпятнистая',
+        name: 'чешская пятнистая собака',
+        level: 10,
+        images: ['https://www.vaschovatel.cz/static/image/6e556182d745096ebea48bb0996f86bc'],
+        similar: { 'мюнстер': 50, 'спрингер': 50, 'бордер': 50, 'дворняга': 50 }
+    },
+    {
+        id: 'валенсия',
+        name: 'валенсийский ратер',
+        level: 10,
+        images: ['https://upload.wikimedia.org/wikipedia/commons/f/f2/Perro_Ratonero_Valenciano_%28cropped%29.jpg'],
+        similar: { 'фокс': 50, 'дрт': 50, 'тойфокс': 50, 'андалуз': 50 }
+    },
+    {
+        id: 'мальорка',
+        name: 'мальорский ратер',
+        level: 10,
+        images: ['https://clubcaratermallorqui.com/wp-content/uploads/13.jpg'],
+        similar: { 'валенсия': 50, 'цвергпинчер': 50, 'чих': 50, 'крысарик': 50 }
+    },
+    {
+        id: 'молосэпир',
+        name: 'молос из эпира',
+        level: 10,
+        images: ['https://media-animals.earth.com/images/2022/08/17/654476451234175/molossusofepirus_42246597359352345.jpg'],
+        similar: { 'мастино': 50, 'канекорсо': 50, 'алабай': 50, 'ротвейлер': 50 }
+    },
+    {
+        id: 'кареа',
+        name: 'леонская кареа',
+        level: 10,
+        images: ['https://animalxop.com/cdn/shop/articles/cb4f517f-48b7-4d8e-a02e-e6ba6eb07405_source-aspect-ratio_default_0.jpg?v=1701896707'],
+        similar: { 'аусси': 50, 'бордер': 50, 'дворняга': 50, 'каталонская': 50 }
+    },
+    {
+        id: 'уэльская',
+        name: 'уэльская овчарка',
+        level: 10,
+        images: ['https://www.petpaw.com.au/wp-content/uploads/2015/04/Welsh-Sheepdog-Smiling.jpg'],
+        similar: { 'бордер': 50, 'коллидш': 50, 'англовчарка': 50, 'аусси': 50 }
+    },
+    {
+        id: 'хантайвей',
+        name: 'новозеландский хантвей',
+        level: 10,
+        images: ['https://ezydog.co.nz/cdn/shop/articles/huntaway-dog-breed-new-zealand_df2a3a83-a0be-4b8a-b2e7-38e702262809.webp?v=1760501737&width=2048'],
+        similar: { 'ротвейлер': 50, 'русгончая': 50, 'дворняга': 50, 'доберман': 50 }
+    },
+    {
+        id: 'канеоропа',
+        name: 'кане-ди-оропа',
+        level: 10,
+        images: ['https://stockdogsavvy.wordpress.com/wp-content/uploads/2010/09/cane-de-oropa-large-photo.jpg'],
+        similar: { 'аусси': 50, 'бергамаско': 50, 'бордер': 50, 'кареа': 50 }
+    },
+
 // ... другие породы ...
     
     // === ДВОРНЯГА (ОДИН ОБЪЕКТ, МНОГО ФОТО) ===
